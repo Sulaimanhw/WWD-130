@@ -1,0 +1,85 @@
+/* Add your CSS here to style your valentines day page */
+header {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    border-radius: 25px;
+    background-color: #f889c1;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+}
+nav ul li {
+    background-color: #ff69b4;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline;
+    margin: 0 15px;
+}
+main {
+    background-color: #f889c1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 200px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9b7c8;
+}
+img {
+    justify-self: center;
+    max-height: 480px;
+    border-radius: 50px;
+    grid-row: span 3;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+section {
+    color: #ff69b4;
+    background-color: white;
+    max-width: 90%;
+    max-height: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    grid-column: 2;
+    justify-self: center;
+    margin-left: -300px;
+}
+section:hover {
+    background-color: #ff69b4;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+} 
+h1 {
+    font-size: 2.5em;
+    grid-column: span 2;
+    justify-self: center;
+    color: #f03492;
+}
+h2 {
+    font-size: 1.2em;
+}
+h1:hover {
+  rotate: 10deg;
+    transition: rotate 0.3s;
+}
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    grid-column: span 2;
+}

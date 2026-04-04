@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #e8eced;
+        }
+        .card {
+            background-image: url("images/christus.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 100px;
+            border: 15px solid #000000;
+            margin: auto;
+            width: 60%;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .oaks-container {
+            height: 220px;
+            width: 220px;
+            overflow: hidden;
+            display: inline-block;
+            border-radius: 50%;
+            border: 10px solid #ffffff;
+            margin: 0 20px;
+        }
+        .oaks-image {
+            width: 100%;
+        }
+        .eyring-image, .christofferson-image {
+            width: 100%;
+        }
+        .eyring-container, .christofferson-container {
+            height: 200px;
+            width: 200px;
+            overflow: hidden;
+            display: inline-block;
+            border-radius: 50%;
+            border: 10px solid #ffffff;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            max-width: 725px;
+            margin: auto;
+        }
+        .twelve-apostles {
+            margin-bottom: 20px;
+
+        }
+        .holland-container, .uchtdorf-container, .bednar-container, .cook-container, .anderson-container, .rasband-container, .stevenson-container, .renlund-container, .gong-container, .soares-container, .kearon-container, .causse-container {
+            height: 150px;
+            width: 150px;
+            overflow: hidden;
+            display: inline-block;
+            border-radius: 50%;
+            border: 10px solid #ffffff;
+            margin-bottom: 10px;
+        }
+        .holland-image, .uchtdorf-image, .bednar-image, .cook-image, .anderson-image, .rasband-image, .stevenson-image, .renlund-image, .gong-image, .soares-image, .kearon-image, .causse-image {
+            width: 100%;
+        }
+        .holland-container {
+            grid-row: 1;
+            grid-column: 1;
+            justify-self: center;
+        }
+        .uchtdorf-container {
+            grid-row: 1;
+            grid-column: 2;
+            justify-self: center;
+        }
+        .bednar-container {
+            grid-row: 1;
+            grid-column: 3;
+            justify-self: center;
+        }
+        .cook-container {
+            grid-row: 1;
+            grid-column: 4;
+            justify-self: center;
+        }
+        .anderson-container {
+            grid-row: 2;
+            grid-column: 1;
+            justify-self: center;
+        }
+        .rasband-container {
+            grid-row: 2;
+            grid-column: 2;
+            justify-self: center;
+        }
+        .stevenson-container {
+            grid-row: 2;
+            grid-column: 3;
+            justify-self: center;
+        }
+        .renlund-container {
+            grid-row: 2;
+            grid-column: 4;
+            justify-self: center;
+        }
+        .gong-container {
+            grid-row: 3;
+            grid-column: 1;
+            justify-self: center;
+        }
+        .soares-container {
+            grid-row: 3;
+            grid-column: 2;
+            justify-self: center;
+        }
+        .kearon-container {
+            grid-row: 3;
+            grid-column: 3;
+            justify-self: center;
+        }
+        .causse-container {
+            grid-row: 3;
+            grid-column: 4;
+            justify-self: center;
+        }
+        .eyring-container:hover, .oaks-container:hover, .christofferson-container:hover {
+            border-color: #000000;
+            transform: scale(1.2);
+            transition: transform 0.3s;
+            border-radius: 10px;
+        }
+        .anderson-container:hover, .rasband-container:hover, .stevenson-container:hover, .renlund-container:hover, .gong-container:hover, .soares-container:hover, .kearon-container:hover, .causse-container:hover, .holland-container:hover, .uchtdorf-container:hover, .bednar-container:hover, .cook-container:hover {
+            border-color: #000000;
+            transform: scale(1.2);
+            transition: transform 0.3s;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>First Presidency</h1>
+        <div class="apostle">   
+            <div class="eyring-container">
+                <img src="images/eyring.webp" alt="Apostle 2" class="eyring-image">
+            </div>
+            <div class="oaks-container">
+                <img src="images/oaks.webp" alt="Apostle 1" class="oaks-image">
+            </div>
+            <div class="christofferson-container">
+                <img src="images/christofferson.webp" alt="Apostle 3" class="christofferson-image">
+            </div>
+        </div>
+        <h2>Quraum of the twelve apostles</h2>
+        <div class="twelve-apostles">
+            <div class="grid">
+                <div class="holland-container">
+                    <img src="images/holland.webp" alt="Apostle 1" class="holland-image">
+                </div>
+                <div class="uchtdorf-container">
+                    <img src="images/uchtdorf.webp" alt="Apostle 2" class="uchtdorf-image">
+                </div>
+                <div class="bednar-container">
+                    <img src="images/bednar.webp" alt="Apostle 3" class="bednar-image">
+                </div>
+                <div class="cook-container">
+                    <img src="images/cook.webp" alt="Apostle 4" class="cook-image">
+                </div>
+                <div class="anderson-container">
+                    <img src="images/anderson.webp" alt="Apostle 5" class="anderson-image">
+                </div>
+                <div class="rasband-container">
+                    <img src="images/rasband.webp" alt="Apostle 6" class="rasband-image">
+                </div>
+                <div class="stevenson-container">
+                    <img src="images/stevenson.webp" alt="Apostle 7" class="stevenson-image">
+                </div>
+                <div class="renlund-container">
+                    <img src="images/renlund.webp" alt="Apostle 8" class="renlund-image">
+                </div>
+                <div class="gong-container">
+                    <img src="images/gong.webp" alt="Apostle 9" class="gong-image">
+                </div>
+                <div class="soares-container">
+                    <img src="images/soares.webp" alt="Apostle 10" class="soares-image">
+                </div>
+                <div class="kearon-container">
+                    <img src="images/kearon.webp" alt="Apostle 11" class="kearon-image">
+                </div>
+                <div class="causse-container">
+                    <img src="images/causse.webp" alt="Apostle 12" class="causse-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
